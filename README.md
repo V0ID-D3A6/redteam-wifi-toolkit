@@ -43,7 +43,7 @@ redteam-wifi-toolkit/
     ├── helpers.py
     └── __init__.py
 
-cat << 'EOF' > README.md
+
 # 🛡️ Red Team Wi-Fi Toolkit
 
 **Red Team Wi-Fi Toolkit** is a lightweight offensive security toolkit designed for **Wi-Fi and LAN reconnaissance**, written in Python.  
@@ -88,6 +88,16 @@ redteam-wifi-toolkit/
     ├── perms.py           # Permission checks
     ├── helpers.py
     └── __init__.py
+
+---
+
+ℹ️ Help Menu
+
+Each tool provides a built‑in help menu:
+
+python3 wifi_recon.py -h
+python3 network_mapper.py -h
+python3 report_builder.py -h
 
 ---
 
@@ -146,7 +156,3 @@ Generates a consolidated report based on:
 
 Created by V0IDD3A6
 Red Team / Offensive Security Enthusiast
-EOF
-
-```bash 
-cat README.md
