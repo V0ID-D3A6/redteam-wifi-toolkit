@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🛡️ Red Team Wi-Fi Toolkit
 
 **Red Team Wi-Fi Toolkit** is a lightweight offensive security toolkit designed for **Wi-Fi and LAN reconnaissance**, written in Python.  
