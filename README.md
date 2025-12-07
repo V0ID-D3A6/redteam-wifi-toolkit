@@ -70,27 +70,6 @@ The project focuses on **clean code**, professional CLI design, logging, and str
   - Modular project architecture
 
 ---
-
-## 📁 Project Structure
-
-```text
-redteam-wifi-toolkit/
-├── network_mapper.py      # LAN network mapping
-├── wifi_recon.py          # Wi-Fi reconnaissance
-├── report_builder.py      # Report generator
-├── requirements.txt
-├── README.md
-├── output/
-│   ├── lan_map.json
-│   └── wifi_scan.json
-└── utils/
-    ├── logger.py          # Centralized logging
-    ├── perms.py           # Permission checks
-    ├── helpers.py
-    └── __init__.py
-
----
-
 ℹ️ Help Menu
 
 Each tool provides a built‑in help menu:
